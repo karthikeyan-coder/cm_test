@@ -1,0 +1,162 @@
+.container{
+  display: flex;
+  margin: 50px;
+  height: 600px;
+  width: 400px;
+  /* background-color: black ; */
+  flex-direction: column;
+}
+
+.post{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* background-color: red; */
+  /* border-radius: 5px; */
+  border-style: solid;
+  width: auto;
+  height: auto;
+  /* margin: 5%; */
+}
+
+
+.header{
+  display: flex;
+  /* background-color: red; */
+  border-bottom: 2px solid;
+  flex-direction: row;
+  margin: 5px;
+  height: 20px;
+  width: 100%;
+}
+
+.feeds{
+  display: flex;
+  /* background-color: green; */
+  flex-direction: column;
+  height: 50%;
+  width: auto;
+  padding: 5%;
+  border: 2px solid;
+}
+.feedimage{
+  width: 340px;
+  height: 300px;
+  margin-left: 5px;
+  border-bottom: 2px solid;
+}
+.feedBorder{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  border: 2px solid;
+}
+.feedstext{
+margin: 10px;  
+}
+.feedsFooter{
+display: flex;
+flex-direction: row;
+justify-content: end;
+}
+.like{
+  display: flex;
+  margin-right: 5px;
+}
+.comment{
+  display: flex;
+  margin-right: 20px;
+}
+.header-child{
+margin-left: 4px;
+}
+
+.header-child1{
+  /* justify-content: center;
+  align-items: center; */
+  margin-left: 4px;
+  padding-left: 3px;
+  border-left: 2px solid;
+  }
+
+  .input{
+    background-color: red;
+    display: flex;
+    height: auto;
+    margin-right: 10px;
+    width: auto;
+  }
+
+  .inputbox{
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+  }
+  .addons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    height: auto;
+    padding-left: 5%;
+    /* background-color: green; */
+  }
+
+  .addons-1{
+    text-align: center;
+    background-color: red;
+    margin: 8px;
+    border-radius: 15px;
+    height: auto;
+    width: 150px;
+  }
+
+  .addons-2{
+    text-align: center;
+    background-color: red;
+    margin: 8px;
+    border-radius: 15px;
+    height: auto;
+    width: 150px;
+  }
+
+  .addons-3{
+    background-color: red;
+    margin: 8px;
+    border-radius: 15px;
+    height: auto;
+    text-align: center;
+    width: 150px;
+  }
+
+  .addons-4{
+    background-color: red;
+    margin: 8px;
+    border-radius: 15px;
+    height: auto;
+    text-align: center;
+    width: 150px;
+  }
+  
+  .postbutton{
+    justify-content: end;
+    /* height: 20px; */
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+  }
+
+  .button{
+    width: 100px;
+    height: 25px;
+  }
+
+  .close:hover{
+    height: 10px;
+    width: 10px;
+    background-color: red;
+  cursor: pointer;
+  }
+
+  .gif{
+    z-index: 200;
+  }
